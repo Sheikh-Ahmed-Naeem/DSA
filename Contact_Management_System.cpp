@@ -103,6 +103,26 @@ void inorder(node* root) {
     cout << root->Contact.name << ": " << root->Contact.number << " ";
     inorder(root->right);
 }
+void preorder(node* root)
+{
+if(root==NULL)
+{
+return;
+}
+cout << root->Contact.name << ": " << root->Contact.number << " ";
+preorder(root->left);
+preorder(root->right);
+}
+void postorder(node* root)
+{
+if(root==NULL)
+{
+return;
+}
+postorder(root->left);
+cout << root->Contact.name << ": " << root->Contact.number << " ";
+postorder(root->right);
+}
 
 int main() {
     node* root = NULL;
