@@ -1,22 +1,36 @@
 # Data Structures and Algorithms 
 
-This repository contains implementations of various data structures and algorithms in [language].
+This repository contains implementations of various data structures and algorithms in C++.
 
 ## Contents
 
-- **Data Structures**: 
-  - List of implemented data structures.
+- **Data Structures**:
+   - Below is a list of data structures implemented in this repository:
+
+    - LinkedList
+    - Stack
+    - Queue
+    - Binary Search Tree
+    - Heap
+    - Hash Table
+    - Graph
 - **Algorithms**: 
-  - List of implemented algorithms.
-- **Usage**: 
-  - Instructions on how to use the implementations.
-- **Contributing**: 
-  - Guidelines for contributing to the repository.
+ Below is a list of algorithms implemented in this repository:
 
-## Usage
+- Sorting Algorithms:
+  - Bubble Sort
+  - Selection Sort
+  - Insertion Sort
+  - Merge Sort
+  - Quick Sort
+- Searching Algorithms:
+  - Linear Search
+  - Binary Search
+- Graph Algorithms:
+  - Breadth-First Search (BFS)
+  - Depth-First Search (DFS)
+- Dynamic Programming:
+  - Fibonacci Series
+  - Knapsack Problem
+  - Longest Common Subsequence
 
-Clone the repository and explore the implementations in the respective directories. Each implementation includes instructions on usage and examples.
-
-## Contributing
-
-Contributions are welcome! Follow the guidelines in the CONTRIBUTING.md file to contribute to this repository.
